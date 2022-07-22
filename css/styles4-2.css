@@ -1,0 +1,63 @@
+@charset "utl-8";
+
+html {
+    padding-left: 20%;
+}
+
+body {
+    font-family: Helvetica , "游ゴシック", sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    display: inline-block;
+    background-color: lightpink;
+}
+
+a:hover{
+    font-size: 2.5ex;
+}
+
+a:link{
+    color: teal;
+}
+
+a:visited{
+    color: orange;
+}
+
+#menu > ul >  li{
+    display: block;
+    width: 250px;
+    margin: 0 16px 0 0;
+    padding: 4px;
+    border: 2px solid teal;
+    border-radius: 4px;
+    background: linear-gradient(#ffffff, darkseagreen);
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+}
+
+#gyu{
+    margin: 0 10px;
+    background-color: lightyellow;
+    width: 40.5%;
+}
+
+#gyu-1{
+    margin-left: 3%;
+}
+
+#karamen{
+    margin: 0 10px;
+    background-color: salmon;
+    width: 40.5%;
+}
+
+#karamen-1{
+    margin-left: 3%;
+}
+
